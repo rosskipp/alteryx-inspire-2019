@@ -82,7 +82,7 @@ class App extends Component {
 
   calcPlayerPosition = () => {
     const { shotDistance, shotAngle } = this.state;
-    const offsetX = 180;
+    const offsetX = 100;
     const offsetY = 220;
     const imageSize = 1200;
     const PPF = imageSize / 200;
