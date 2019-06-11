@@ -1,0 +1,18 @@
+# Alteryx Inspire 2019 Talk
+
+## Operationalizing Your Models in Promote
+
+This repo holds the code and slides for a talk that I gave at the Alteryx Inspire 2019 conference about
+deploying a Python model to Alteryx Promote. The model is a NHL Hockey expected goal probabilty model.
+
+In this repo, you'll find the Jupyter notebook that I used to train the model along with the code to
+deploy the model to Promote from Python.
+
+Also in here is an example application built with Node.js and React.
+
+To train use the Jupyter notebook, you'll need the dataset (~600MB). There's a script in the `/data` folder to get the file and unzip it.
+
+- `cd data`
+- `./get_data.sh`
+
+Enjoy!
